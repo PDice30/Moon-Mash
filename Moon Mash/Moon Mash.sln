@@ -1,14 +1,18 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{74B078E7-B172-02AF-97CB-267EC614EBAE}") = "Moon Mash", "Assembly-CSharp.csproj", "{92679ABB-64C4-B61B-9272-A97497A27F85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{92679ABB-64C4-B61B-9272-A97497A27F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92679ABB-64C4-B61B-9272-A97497A27F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92679ABB-64C4-B61B-9272-A97497A27F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92679ABB-64C4-B61B-9272-A97497A27F85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
