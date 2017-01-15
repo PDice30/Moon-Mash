@@ -38,15 +38,15 @@ public class PlayerController : MonoBehaviour {
 		//LUL HACKS
 
 		currentTouchPos = touchPos;
-		/*
-		Vector3 moveVector = currentTouchPos - previousTouchPos;
-		moveVector.Normalize ();
-		moveVector = new Vector3 (moveVector.y, moveVector.x, moveVector.z);
-		moveVector = moveVector * 5;
-		planet.Rotate (moveVector);
-*/
 
-		planet.transform.rotation = Quaternion.FromToRotation (previousTouchPos, currentTouchPos);
+		Vector3 moveVector = currentTouchPos - previousTouchPos;
+		//moveVector.Normalize ();
+		moveVector = new Vector3 (moveVector.y, -moveVector.x, moveVector.z);
+		moveVector = moveVector / 2;
+		planet.Rotate (moveVector, Space.World);
+
+
+		//planet.transform.rotation = Quaternion.FromToRotation (previousTouchPos, currentTouchPos);
 
 		previousTouchPos = touchPos;
 	}
