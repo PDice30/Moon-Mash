@@ -5,6 +5,8 @@ using UnityEngine;
 public class TestHammer : MonoBehaviour {
 
 	// Use this for initialization
+	bool behaviorOn = false;
+
 	float timeUntilNextSmash = 5.0f;
 
 	public Animator testHammerAC;
@@ -15,13 +17,16 @@ public class TestHammer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		timeUntilNextSmash -= Time.deltaTime;
-		if (timeUntilNextSmash <= 0) {
+		if (behaviorOn) {
+			
+			timeUntilNextSmash -= Time.deltaTime;
+			if (timeUntilNextSmash <= 0) {
 		
 
-			triggerSmash ();
-			timeUntilNextSmash = 5.0f;
-			Debug.Log ("SMASH");
+				triggerSmash ();
+				timeUntilNextSmash = 5.0f;
+				Debug.Log ("SMASH");
+			}
 		}
 
 	}

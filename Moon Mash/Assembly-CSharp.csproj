@@ -46,9 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\MainCameraController.cs" />
+     <Compile Include="Assets\Scripts\MiscObjectMover.cs" />
      <Compile Include="Assets\Scripts\PlanetRotation.cs" />
+     <Compile Include="Assets\Scripts\PlaySceneController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\StarSpawner.cs" />
      <Compile Include="Assets\Scripts\TestHammer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
