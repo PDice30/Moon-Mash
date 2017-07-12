@@ -5,7 +5,7 @@ using UnityEngine;
 public class TestHammer : MonoBehaviour {
 
 	// Use this for initialization
-	float timeUntilNextSmash = 5.0f;
+	float timeUntilNextSmash = 2.0f;
 
 	public Animator testHammerAC;
 
@@ -20,7 +20,7 @@ public class TestHammer : MonoBehaviour {
 	
 
 			triggerSmash ();
-			timeUntilNextSmash = 5.0f;
+			timeUntilNextSmash = 2.0f;
 			Debug.Log ("SMASH");
 		}
 

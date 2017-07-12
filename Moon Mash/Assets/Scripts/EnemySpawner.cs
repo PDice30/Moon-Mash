@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour {
 	}
 
 	void Start () {
-		timeUntilEnemySpawn = 5.0f;
+		timeUntilEnemySpawn = 2.0f;
 	}
 	
 	// Update is called once per frame
@@ -22,7 +22,7 @@ public class EnemySpawner : MonoBehaviour {
 		timeUntilEnemySpawn -= Time.deltaTime;
 		if (timeUntilEnemySpawn <= 0) {
 			GameObject newEnemy = GameObject.Instantiate (enemy, planet.transform) as GameObject;
-			timeUntilEnemySpawn = 5.0f;
+			timeUntilEnemySpawn = 2.0f;
 		}
 	}
 }
