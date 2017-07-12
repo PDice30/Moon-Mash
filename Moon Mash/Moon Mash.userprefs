@@ -1,11 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TestHammer.cs">
     <Files>
       <File FileName="Assets\Scripts\TestHammer.cs" Line="19" Column="33" />
       <File FileName="Assets\Scripts\PlanetRotation.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerController.cs" Line="25" Column="42" />
       <File FileName="Assets\Scripts\EnemySpawner.cs" Line="25" Column="27" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlanetRotation.cs">
+    <Files>
+      <File FileName="Assets/Scripts/StarSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TestHammer.cs" Line="28" Column="2" />
+      <File FileName="Assets/Scripts/PlanetRotation.cs" Line="15" Column="2" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
+>>>>>>> a08cba637ea3c52fc345c72feb87bef2029c93cc
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
