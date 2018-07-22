@@ -9,6 +9,7 @@ public class PlaySceneController : MonoBehaviour {
 	private Animator mainCameraAnimator;
 
 	private StarSpawner starSpawner;
+	private TerrainSpawner terrainSpawner;
 
 	public GameObject currentPlanet;
 	public GameObject background;
@@ -19,7 +20,7 @@ public class PlaySceneController : MonoBehaviour {
 
 	void Awake() {
 		starSpawner = GameObject.Find ("StarSpawnerObj").GetComponent<StarSpawner>() as StarSpawner;
-
+		terrainSpawner = GameObject.Find ("TerrainSpawnerObj").GetComponent<TerrainSpawner>() as TerrainSpawner;
 	}
 
 	void Start () {
