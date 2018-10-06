@@ -1,0 +1,395 @@
+[
+    {
+        "sectorId": 1,
+        "sectorName": "Alpha",
+        "planetId": 1,
+        "planetName": "Mercury",
+        "round": 1,
+        "spawn": 0,
+        "enemyId": 1,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Green",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(0, 0, 0)"
+    },
+    {
+        "enemyId": 2,
+        "enemyTypeName": "Bat",
+        "enemyTypeId": 4,
+        "enemySubtypeName": "Skittish",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "enemyId": 3,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Green",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "spawn": 10,
+        "enemyId": 4,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Red",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "enemyId": 5,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "enemyId": 6,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 150, 0)"
+    },
+    {
+        "enemyId": 7,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(0, 0, 0)"
+    },
+    {
+        "enemyId": 8,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(270, 270, 270)"
+    },
+    {
+        "enemyId": 9,
+        "enemyTypeName": "Mole",
+        "enemyTypeId": 3,
+        "enemySubtypeName": "Brown",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(45, 45, 200)"
+    },
+    {
+        "spawn": 30,
+        "enemyId": 10,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "enemyId": 11,
+        "enemyTypeName": "Mole",
+        "enemyTypeId": 3,
+        "enemySubtypeName": "Brown",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "enemyId": 12,
+        "enemyTypeName": "Bat",
+        "enemyTypeId": 4,
+        "enemySubtypeName": "Skittish",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(270, 270, 270)"
+    },
+    {
+        "enemyId": 13,
+        "enemyTypeName": "Bat",
+        "enemyTypeId": 4,
+        "enemySubtypeName": "Skittish",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(45, 45, 200)"
+    },
+    {
+        "enemyId": 14,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Green",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(200, 270, 270)"
+    },
+    {
+        "enemyId": 15,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Red",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(270, 270, 200)"
+    },
+    {
+        "enemyId": 16,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Red",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(270, 0, 270)"
+    },
+    {
+        "enemyId": 17,
+        "enemyTypeName": "Bat",
+        "enemyTypeId": 4,
+        "enemySubtypeName": "Quick",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(160, 270, 200)"
+    },
+    {
+        "planetId": 2,
+        "planetName": "Venus",
+        "round": 1,
+        "spawn": 0,
+        "enemyId": 1,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(0, 0, 0)"
+    },
+    {
+        "enemyId": 2,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Beetle",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "enemyId": 3,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Red",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "enemyId": 4,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Red",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "enemyId": 5,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Beetle",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "spawn": 30,
+        "enemyId": 6,
+        "enemyTypeName": "Bat",
+        "enemyTypeId": 4,
+        "enemySubtypeName": "Quick",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(120, 150, 0)"
+    },
+    {
+        "enemyId": 7,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Blue",
+        "enemySubtypeId": "2",
+        "enemySpawnLocation": "(0, 0, 0)"
+    },
+    {
+        "enemyId": 8,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Blue",
+        "enemySubtypeId": "2",
+        "enemySpawnLocation": "(270, 270, 270)"
+    },
+    {
+        "enemyId": 9,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Scary",
+        "enemySubtypeId": "2",
+        "enemySpawnLocation": "(45, 45, 200)"
+    },
+    {
+        "enemyId": 10,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Scary",
+        "enemySubtypeId": "2",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "round": 2,
+        "spawn": 0,
+        "enemyId": 11,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "enemyId": 12,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Beetle",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(270, 270, 270)"
+    },
+    {
+        "enemyId": 13,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Beetle",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(45, 45, 200)"
+    },
+    {
+        "enemyId": 14,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Beetle",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(200, 270, 270)"
+    },
+    {
+        "enemyId": 15,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Red",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(270, 270, 200)"
+    },
+    {
+        "spawn": 20,
+        "enemyId": 16,
+        "enemyTypeName": "Mole",
+        "enemyTypeId": 3,
+        "enemySubtypeName": "Naked",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(270, 0, 270)"
+    },
+    {
+        "enemyId": 17,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Red",
+        "enemySubtypeId": "1",
+        "enemySpawnLocation": "(160, 270, 200)"
+    },
+    {
+        "enemyId": 18,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Blue",
+        "enemySubtypeId": "2",
+        "enemySpawnLocation": "(0, 0, 0)"
+    },
+    {
+        "enemyId": 19,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "enemyId": 20,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Green",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "enemyId": 21,
+        "enemyTypeName": "Bat",
+        "enemyTypeId": 4,
+        "enemySubtypeName": "Skittish",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "spawn": 30,
+        "enemyId": 22,
+        "enemyTypeName": "Bat",
+        "enemyTypeId": 4,
+        "enemySubtypeName": "Skittish",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "enemyId": 23,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 150, 0)"
+    },
+    {
+        "enemyId": 24,
+        "enemyTypeName": "Mole",
+        "enemyTypeId": 3,
+        "enemySubtypeName": "Brown",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(0, 0, 0)"
+    },
+    {
+        "enemyId": 25,
+        "enemyTypeName": "Mole",
+        "enemyTypeId": 3,
+        "enemySubtypeName": "Brown",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(270, 270, 270)"
+    },
+    {
+        "enemyId": 26,
+        "enemyTypeName": "Mole",
+        "enemyTypeId": 3,
+        "enemySubtypeName": "Brown",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(45, 45, 200)"
+    },
+    {
+        "enemyId": 27,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(60, 0, 0)"
+    },
+    {
+        "enemyId": 28,
+        "enemyTypeName": "Bug",
+        "enemyTypeId": 2,
+        "enemySubtypeName": "Critter",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(120, 120, 0)"
+    },
+    {
+        "enemyId": 29,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Green",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(270, 270, 270)"
+    },
+    {
+        "enemyId": 30,
+        "enemyTypeName": "Slime",
+        "enemyTypeId": 1,
+        "enemySubtypeName": "Green",
+        "enemySubtypeId": "0",
+        "enemySpawnLocation": "(45, 45, 200)"
+    }
+]
