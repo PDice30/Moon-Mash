@@ -12,11 +12,11 @@ public class SpawnController : MonoBehaviour {
 		string path = "Assets/Scripts/EnemyDataInput.json";
 		StreamReader reader = new StreamReader(path);
 		var json = reader.ReadToEnd();
+		reader.Close();
 		string fixedJson = fixJson(json);
 
 		_data = JsonHelper.FromJson<EnemySpawnData>(fixedJson);
 
-		Debug.Log(_data[0]);
 		Debug.Log(  "sectorId: " + _data[0].sectorId + "\n" +
 					"sectorName: " + _data[0].sectorName + "\n" +
 					"planetId: " + _data[0].planetId + "\n" +
@@ -29,13 +29,6 @@ public class SpawnController : MonoBehaviour {
 					"enemySubtypeName: " + _data[0].enemySubtypeName + "\n" +
 					"enemySubtypeId: " + _data[0].enemySubtypeId + "\n" +
 					"enemySpawnLocation: " + _data[0].enemySpawnLocation );
-		Debug.Log(_data[0].sectorName);
-		Debug.Log(_data[0].planetId);
-		Debug.Log(_data[0].planetName);
-		Debug.Log(_data[0].round);
-
-		reader.Close();
-		//readerMin.Close();
 	}
 	
 	// Update is called once per frame
