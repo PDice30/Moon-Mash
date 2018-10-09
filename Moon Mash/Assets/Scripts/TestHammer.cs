@@ -7,10 +7,13 @@ public class TestHammer : MonoBehaviour {
 	// Use this for initialization
 	float timeUntilNextSmash = 2.0f;
 
+	public EnemySpawner enemySpawner;
+	// This is not a good implementation at all.
+	public List<GameObject> _enemies;
 	public Animator testHammerAC;
 
 	void Start () {
-		
+		_enemies = enemySpawner.enemies;
 	}
 	
 	// Update is called once per frame
@@ -32,6 +35,7 @@ public class TestHammer : MonoBehaviour {
 
 	void OnTriggerEnter(Collider coll) {
 		if (coll.tag == "Enemy") {
+			_enemies.Remove(coll.gameObject);
 			Destroy (coll.gameObject);
 		}
 	}

@@ -7,9 +7,12 @@ public class EnemySpawner : MonoBehaviour {
 	// Use this for initialization
 	private GameObject planet;
 	public GameObject enemy;
+
+	public List<GameObject> enemies;
 	private float timeUntilEnemySpawn;
 
 	void Awake() {
+		enemies = new List<GameObject>();
 		planet = GameObject.Find ("TestPlanet");
 	}
 
@@ -24,6 +27,7 @@ public class EnemySpawner : MonoBehaviour {
 			GameObject newEnemy = GameObject.Instantiate (enemy, spawnOnRandomSpot(), Quaternion.identity) as GameObject;
 			newEnemy.transform.SetParent (planet.transform);
 			timeUntilEnemySpawn = SceneConstants.TEST_ENEMY_SPAWN_TIME;
+			enemies.Add(newEnemy);
 		}
 	}
 

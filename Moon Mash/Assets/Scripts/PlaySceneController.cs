@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlaySceneController : MonoBehaviour {
 
 	// Use this for initialization
 	public Camera mainCamera;
 	private Animator mainCameraAnimator;
-
 	private StarSpawner starSpawner;
 	private TerrainSpawner terrainSpawner;
 
@@ -16,6 +16,10 @@ public class PlaySceneController : MonoBehaviour {
 
 	public float playerShipSpeed = 0.0f;
 
+	public EnemySpawner enemySpawner;
+	public List<GameObject> enemies;
+	public int enemiesRemaining = 0;
+	public Text enemiesRemainingText;
 	public bool isWarpingToPlanet = false;
 
 	void Awake() {
@@ -24,7 +28,8 @@ public class PlaySceneController : MonoBehaviour {
 	}
 
 	void Start () {
-		mainCameraAnimator = mainCamera.GetComponent<Animator> ();	
+		mainCameraAnimator = mainCamera.GetComponent<Animator> ();
+		enemies = enemySpawner.enemies;	
 	}
 	
 	// Update is called once per frame
@@ -39,8 +44,10 @@ public class PlaySceneController : MonoBehaviour {
 				playerShipSpeed += 1f;
 			}
 		}
-	}
 
+		enemiesRemaining = enemies.Count;
+		enemiesRemainingText.text = "Enemies Remaining: " + enemiesRemaining;
+	}
 
 	public void anim_triggerPlanetZoom() {
 		mainCameraAnimator.SetTrigger ("SpacePressedTest");
