@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[Serializable]
 public class WeaponSO : ScriptableObject {
 
 	public int weaponId = 0;
@@ -9,6 +12,6 @@ public class WeaponSO : ScriptableObject {
 	public int weaponDamage = 1;
 	public float weaponCooldown = 5.0f;
 
-	public GameObject Object;
+	// public GameObject Object;
 
 }
